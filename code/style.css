@@ -1,1 +1,32 @@
 
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 15rem;
+}
+.uper{
+    flex: 1 0 auto;
+    margin: 7px;
+}
+.uper div{
+    margin: 7px;
+    background-color: #bdb76b;
+}
+.mid{
+    flex: 1 0 auto;
+    margin: 7px;
+}
+.mid div{
+    margin: 7px;
+    background-color: red;
+}
+.lower{
+    flex: 1 0 auto;
+    margin: 7px;
+}
+.lower div{
+    margin: 7px;
+    background-color: lightskyblue;
+}
