@@ -1,0 +1,151 @@
+/* First Container */
+.header-container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(230, 228, 227);
+    border: 3px rgb(207, 213, 231);
+    border-top-style: double;
+    margin-top: 8px;
+}
+
+.header-container .content1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80px;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container .content2{
+    display: flex;
+    width: 10%;
+    height: 80px;
+    margin-right: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container .content2 button{
+    background-color: rgb(10, 11, 12);
+    width: 4rem;
+    height: 2rem;
+    color: aliceblue;
+    font-weight: 1000;
+}
+
+.header-container label{
+    font-size: 12px;
+    color:lightslategray;
+    font-weight: 600;
+}
+
+/* Second Container */
+.customer-info{
+    margin:2% 2% 2% 2%;
+    border: 2px solid lightgrey;
+    width: 96%;
+    height: 105px;
+}
+.customer-info div{
+    margin: 10px 0px 0px 10px;
+}
+
+/* third container */
+.order-info{
+    margin:2% 2% 2% 2%;
+    border: 2px solid lightgrey;
+    width: 96%;
+    height: 80px;
+    background-color:  rgb(241, 222, 212);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.order-info .order-info1{
+    display: flex;
+    flex-direction: column;
+    margin:1% 10% 1% 1%; 
+}
+
+.order-info .order-info1 .order-info1-span1{
+    height: 11px;
+    width: 11px;
+    background-color: rgb(10, 10, 10);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.order-info .order-info1 .order-info1-1 label{
+    font-weight: 500;
+}
+.order-info .order-info1:nth-child(2) label{
+    font-weight: 500;
+}
+
+.order-info1 .order-info1-3 label:nth-child(1){
+    font-weight: 500;
+}
+.order-info1 .order-info1-3 label:nth-child(2){
+    font-size: 12px;
+    font-weight: 500;
+    color: lightslategray;
+}
+
+
+
+/* Fourth container */
+.product-list{
+    margin:2% 2% 2% 2%;
+    border: 2px solid lightgrey;
+    width: 96%;
+    height: 105px;
+
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.product-list .product-list-box-outer{
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-list .product-list-box-outer .product-list-box-inner{
+    border: 2px solid yellowgreen;
+    width: 30px;
+    height: 30px;
+}  
+
+.product-list .product-list-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-list .product-list-img img{
+    width: 96%;
+    height: 90px;
+    margin: 10px 10px 10px 10px;
+    border-radius: .8rem;
+}
+
+
+.product-list .product-list-text-content1{
+    margin-left:20px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-list .product-list-text-content1 label{
+    font-size: 14px;
+    font-weight: 500;
+    color: lightslategray;
+}
