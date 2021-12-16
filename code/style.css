@@ -1,32 +1,120 @@
-
-body{
+html {
     margin: 0;
     padding: 0;
 }
-.main{
-    height: 15rem;
+
+.main-content {
+    padding: 20px;
+    width: 100%;
+    height: auto;
 }
-.uper{
-    flex: 1 0 auto;
-    margin: 7px;
+
+.yellow-container .content {
+
+    background-color: yellow;
+    min-height: 150px;
+    margin: 20px;
 }
-.uper div{
-    margin: 7px;
-    background-color: #bdb76b;
+
+.red-container .content {
+
+    background-color: rgb(32, 167, 149);
+    min-height: 150px;
+    margin: 20px;
 }
-.mid{
-    flex: 1 0 auto;
-    margin: 7px;
+
+.blue-container .content {
+
+    background-color: rgb(5, 8, 150);
+    min-height: 150px;
+    margin: 20px;
 }
-.mid div{
-    margin: 7px;
-    background-color: red;
+
+
+
+
+@media only screen and (max-width:320px) {
+    .yellow-container .content {
+
+        background-color: yellow;
+        min-height: 150px;
+        margin: 20px;
+    }
+
+    .red-container .content {
+
+        background-color: rgb(32, 167, 149);
+        min-height: 150px;
+        margin: 20px;
+    }
+
+
+    .blue-container .content {
+
+        background-color: rgb(5, 8, 150);
+        min-height: 150px;
+        margin: 20px;
+    }
+
 }
-.lower{
-    flex: 1 0 auto;
-    margin: 7px;
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+    .yellow-container .content {
+
+        background-color: yellow;
+        min-height: 150px;
+        margin: 20px;
+    }
+
+    .red-container .content {
+
+        background-color: rgb(32, 167, 149);
+        min-height: 150px;
+        margin: 20px;
+    }
+
+
+    .blue-container .content {
+
+        background-color: rgb(5, 8, 150);
+        min-height: 150px;
+        margin: 20px;
+    }
+
+
 }
-.lower div{
-    margin: 7px;
-    background-color: lightskyblue;
+
+@media only screen and (min-width:1024px) {
+    .yellow-container {
+        display: flex;
+    }
+
+    .yellow-container .content {
+
+        background-color: yellow;
+        min-height: 150px;
+        margin: 20px;
+        min-width: 45%;
+    }
+
+    .red-container .content {
+
+        background-color: rgb(32, 167, 149);
+        min-height: 150px;
+        margin: 20px;
+    }
+
+    .blue-container {
+        display: flex;
+    }
+
+    .blue-container .content {
+
+        background-color: rgb(5, 8, 150);
+        min-height: 150px;
+        margin: 20px;
+        flex-basis: 30%;
+
+    }
 }

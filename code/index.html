@@ -11,17 +11,34 @@
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
-  <div id="main-container"></div>
+  <div id="root"></div>
   <script type="text/babel">
-    var uper = React.createElement('div', { class: "uper", style: { display: "grid", 'flex-flow': "row wrap" } },
-     React.createElement('div', null, null), React.createElement('div', null, null))
-    var mid = React.createElement('div', { class: "mid", style: { display: "grid", 'flex-flow': "row wrap" } },
-     React.createElement('div', null, null))
-    var lower = React.createElement('div', { class: "lower", style: { display: "grid", 'flex-flow': "row wrap" } },
-     React.createElement('div', null, null), React.createElement('div', null, null))
-    var main = React.createElement('div', { class: "main", style: { display: "grid", 'flex-flow': "column wrap" } }, uper, mid, lower)
+    //React Code here
+    var myresponsiveLayout = <div className="main-content">
+      <div class="yellow-container">
+        <div class="content">
+          </div>
+          <div class="content">
+          </div>
+      </div>
+      <div class="red-container">
+        <div class="content">
+          </div>
+      </div>
 
-    ReactDOM.render(main, document.getElementById('main-container'));
+      <div class="blue-container">
+        <div class="content">
+          </div>
+          <div class="content">
+          </div>
+          <div class="content">
+          </div>
+      </div>
+
+    </div>
+
+
+    ReactDOM.render(myresponsiveLayout, document.getElementById('root'));
 
 </script>
 <!--
